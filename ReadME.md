@@ -6,7 +6,7 @@ Screenshots are loocated in the possible foods tab of the app.
 
 ![Screen Shot 2021-12-06 at 11 57 12 AM](https://user-images.githubusercontent.com/90795598/144901359-d414d689-7624-4468-b305-8f7ebc7ac4d1.png)
 
-![image](https://user-images.githubusercontent.com/90795598/144901401-3e11c2c8-2bf4-4211-8bfd-dc75b41997af.png)
+Screen Shot 2021-12-06 at 12.10.28 PM
 
 
 
