@@ -10,6 +10,9 @@ import AssetExample from './components/AssetExample' ;
 import LetsGetstarted from './components/LetsGetStarted';
 import WhyFoodLink from './components/WhyFoodLink' ;
 import PossibleFood from './components/PossibleFood' ;
+import BarcodeScanner from './components/BarcodeScanner';
+//import SignIn from './components/SignIn';
+
 const Stack = createNativeStackNavigator();
 
 const MyStack = () => {
@@ -31,6 +34,10 @@ const MyStack = () => {
 
         <Stack.Screen name ="Food" component = {PossibleFood} />
 
+        
+
+        <Stack.Screen name ="Scanner" component = {BarcodeScanner}/>
+
       </Stack.Navigator>
     </NavigationContainer>
   );
@@ -44,11 +51,11 @@ const HomeScreen = ({ navigation }) => {
 
 
 
-      <View style={{ flexDirection: 'row',
+      <View style={{ flexDirection: 'column',
                     backgroundColor:"#d0f0c0",
                      margin:"25px",
                      border:"thick solid #d0f0c0",
-                     padding:'10px',
+                     padding:'100px',
                      justifyContent: 'space-around', }}>
 
         <Button
@@ -84,6 +91,18 @@ const HomeScreen = ({ navigation }) => {
             navigation.navigate('Food')
           }
         />
+
+         <Button
+          title="Scanner"
+          color='#00bfff'
+          onPress={() =>
+            navigation.navigate('BarcodeScanner')
+          }
+        />
+
+
+        
+
     </View>
   );
 };

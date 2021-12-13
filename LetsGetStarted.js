@@ -1,9 +1,14 @@
 
 import React, { useState, useEffect } from "react";
-import { Button, StyleSheet, Text, TextInput, View, FlatList, ScrollView, SafeAreaView} from "react-native";
+import { Button, StyleSheet, Text, TextInput, View, FlatList, ScrollView, SafeAreaView, BarCodeScanner} from "react-native";
 
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import Axios from 'axios'
+import { NavigationContainer } from '@react-navigation/native';
+import { createNativeStackNavigator } from '@react-navigation/native-stack';
+
+
+
 
 const StartSheet = (props) => {
 
@@ -21,7 +26,7 @@ const StartSheet = (props) => {
 
     const Item = ({product}) => (
         <View style={styles.item}>
-            <Text style={styles.product}> </Text>
+            <Text style={styles.product}> {product} </Text>
         </View>
     );
 
@@ -84,7 +89,7 @@ const StartSheet = (props) => {
         </View>
     );
 
-    let debugView = ""
+    let debugView = <Text> </Text>
     if (debugging) {
         debugView =
         <View>
@@ -105,6 +110,7 @@ const StartSheet = (props) => {
                 keyExtractor={item => item.product}
             />
 
+
             <View>
                 <TextInput placeholder= "Product Entered Here" onChangeText={(text) => setProduct(text)} />
                 <Button  title = "Store Product" color='pink' onPress={() =>{
@@ -124,6 +130,7 @@ const StartSheet = (props) => {
             {debugView}
   
         </View>
+
       );
     }
     const styles = StyleSheet.create ({
@@ -142,7 +149,7 @@ const StartSheet = (props) => {
         fontSize:20
     },
     header: {
-        fontSize:40,
+        fontSize:20,
         fontWeight: "bold",
         color:'black',
         fontFamily:'Courier New'

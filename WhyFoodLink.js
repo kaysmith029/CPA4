@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Text, View, StyleSheet, Button, Image, SafeAreaView } from 'react-native';
+import { Text, View, StyleSheet, Button, Image, SafeAreaView, ImageBackground } from 'react-native';
 import Constants from 'expo-constants';
 
 // You can import from local files
