@@ -7,6 +7,7 @@ Some screen shots are also located in the example page of the app.
 
 ![image](https://user-images.githubusercontent.com/90795598/145750329-06e5757f-533e-4a0e-a170-b699b0b117c1.png)
 
+![image](https://user-images.githubusercontent.com/90795598/145750372-18276bde-96bf-4341-ad4e-7b2b0f13d8b8.png)
 
 ![image](https://user-images.githubusercontent.com/90795598/145750236-d440ae5f-5794-4e84-a1bd-47d9fb7af3b7.png)
 
