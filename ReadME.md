@@ -1,4 +1,4 @@
-Food Link is an app that aims to categorize your food as you buy it. Whether you enter it manually, choose it from the drop down list of foods or scan the item's barcode. You never have to bring a list to the store again with this app in hand. Say goodbye to remembering best by dates! We have you covered.
+Food Link is an app that aims to categorize your food as you buy it. Whether you enter it manually or scan the item's barcode. You never have to bring a list to the store again with this app in hand. Say goodbye to remembering best by dates! We have you covered.
 
 Some screenshots are also loocated in the possible foods tab of the app.
 
